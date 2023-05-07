@@ -1,5 +1,5 @@
 import { createTheme } from '@vanilla-extract/css';
-import { themeContract } from './themeContract';
+import { themeContract } from './themeContract.css';
 export const myTheme = createTheme(themeContract, {
   color: { background: 'blue', foreground: 'white' },
 });

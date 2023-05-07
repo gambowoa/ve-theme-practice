@@ -1,5 +1,5 @@
 import { style } from '@vanilla-extract/css';
-import { themeContract } from '../../style/themeContract';
+import { themeContract } from '../../style/themeContract.css';
 
 export const boxStyle = style({
   background: themeContract.color.background,
